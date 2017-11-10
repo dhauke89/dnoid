@@ -37,7 +37,7 @@ public class Ball : MonoBehaviour {
 		}
 	}
 	
-	public void resetBallLifeLost(){
+	public void systemResetBall(){
 		if(hasStarted){
 			this.transform.position = paddle.transform.position + paddleToBallVector;
 			hasStarted = false;

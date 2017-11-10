@@ -36,7 +36,7 @@ public class LevelManager : MonoBehaviour {
 	
 	public void LifeLost(){
 		if (Lives.livesRemaining){
-			ball.resetBallLifeLost();
+			ball.systemResetBall();
 		} else {
 			LoadLevel("Lose");
 			lives.Reset();
